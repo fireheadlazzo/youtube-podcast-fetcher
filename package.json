@@ -1,0 +1,27 @@
+{
+  "name": "youtube-podcast-fetcher",
+  "version": "1.0.0",
+  "description": "Downloads audio from youtube channels and copies it to a JustCast directory",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireheadlazzo/youtube-podcast-fetcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireheadlazzo/youtube-podcast-fetcher/issues"
+  },
+  "homepage": "https://github.com/fireheadlazzo/youtube-podcast-fetcher#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "child-process-promise": "^2.2.1"
+  }
+}
